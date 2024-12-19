@@ -1,0 +1,93 @@
+
+body {
+  margin: 0;
+  font-family: font-family: 'Lato', sans-serif;
+ background-image: url("images/shembot.jpg");
+ height: 500px;
+ background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  font-size: 25px;
+  color: white;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #6088b4;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 19px;
+}
+
+.navbar a:hover {
+  background: #6088b4;
+  color: silver;
+}
+
+.navbar a.active {
+  background-color:#000000;
+  color: white;
+}
+
+.main {
+  padding: 16px;
+  margin-bottom: 30px;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #6088b4;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #000000;
+}
+article{
+  border-style:groove;
+    background-image: url('images/shepard.jpg');
+    height: 40%;
+    width: 40%;
+    margin-top: 30px;
+    margin-left: 20px;
+     background-position: center;
+  background-repeat: no-repeat;
+  align-items: center;
+}
+aside{
+  
+    background-image: url('images/dancing.gif');
+    height: 70%;
+    width: 40%;
+    margin-top: 70px;
+  background-position: center;
+  background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 100px;
+  
+
+}

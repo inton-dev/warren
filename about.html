@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="about.css">
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #000000;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #000000;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #000000;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #6088b4;
+  padding: 1px;
+  text-align: center;
+  color: black;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+  <ul>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
+<h2>HEY!</h2>
+<p>My name is Warren Winceton E. Trivino a student From Westmead International School.</p>
+<p>I am currently a student and taking Bachelor of Science in Information Technology.</p>
+<p><strong></strong> Your future programmer and computer expert!</p>
+
+<header>
+  <h2>MY HOBBIES</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <p style="color: black;">LET'S BE FRIENDS!</p>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>HELLO!</h1>
+    <p>Playing Badminton, basketball and online games are my Hobbies.</p>
+    <p>When not busy bonding with friends sometimes, I like to spend my time taking photos, playing video games, or
+        practicing some card tricks.</p>
+  </article>
+</section>
+
+<footer>
+  <p>THANKYOU FOR VISITING MY WEBSITE!</p>
+</footer>
+
+</body>
+</html>
+
